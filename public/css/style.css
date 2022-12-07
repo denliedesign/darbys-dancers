@@ -1,0 +1,189 @@
+/* GRAYS
+#F8F9FA
+#F4F5F4
+#F0F0ED
+
+complimentary light orange: FF5300
+complimentary orange: DC4700
+complimentary yellow-orange: FF8B00
+complimentary yellow: FFC300
+ */
+
+.brand-bg-gradient-yo {
+    /*background: #FEC8F4;*/
+    background: linear-gradient(to right, #FFC300, #FF9E00);
+}
+
+.brand-bg-light-blue {
+    background: #3E9DF5 !important;
+}
+.brand-txt-light-blue {
+    color: #3E9DF5;
+}
+.brand-bg-logo-blue {
+    background: #31609D !important;
+}
+.brand-txt-logo-blue {
+    color: #31609D;
+}
+.brand-bg-blue {
+    background: #014A8F !important;
+}
+.brand-txt-blue {
+    color: #014A8F;
+}
+.brand-bg-dark-blue {
+    background: #0D315C !important;
+}
+.brand-txt-dark-blue {
+    color: #0D315C;
+}
+.brand-bg-gradient-blue {
+    background: linear-gradient(to right, #31609D, #014A8F) !important;
+}
+.brand-txt-gradient-blue {
+    /*font-size: 72px;*/
+    background: -webkit-linear-gradient(#31609D, #014A8F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.brand-btn:hover {
+    background: #014A8F !important;
+    border: 1px solid #014A8F !important;
+}
+
+.font-archivo-plain {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.25em;
+}
+.font-archivo, h2 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 2em;
+}
+.font-fira {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.font-hind, p, label {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.25em;
+}
+
+.font-mont {
+    font-family: 'Montserrat', sans-serif;
+}
+/*.font-staat {*/
+/*    font-family: 'Staatliches', cursive;*/
+/*}*/
+/*.font-lora {*/
+/*    font-family: 'Lora', serif;*/
+/*}*/
+/*.font-merri {*/
+/*    font-family: 'Merriweather', serif;*/
+/*}*/
+/*.font-arvo {*/
+/*    font-family: 'Arvo', serif;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.font-roboto {*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+/*.font-alfa {*/
+/*    font-family: 'Alfa Slab One', cursive;*/
+/*}*/
+/*.font-chivo {*/
+/*    font-family: 'Chivo', sans-serif;*/
+/*}*/
+
+.banner-wrap {
+    height: 200px;
+    width: 100%;
+}
+
+.banner {
+    height: 100%;
+    /*width: 100%;*/
+    background: url("/images/bg-darbys-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.txt-gal:hover {
+    color: #0D315C;
+}
+
+.yellow-color {
+    color: #FFC300;
+}
+.yellow-bg {
+    background: #FFC300;
+}
+.silver-color {
+    color: #A5AEB9;
+}
+
+.realistic-marker-highlight{
+    position:relative;
+}
+
+.realistic-marker-highlight:before{
+    content:"";
+    background-color:#FFC300;
+    width:100%;
+    height:1em;
+    position:absolute;
+    z-index:-1;
+    filter:url(#marker-shape);
+    left:-0.25em;
+    top:0.1em;
+    padding:0 0.25em;
+}
+
+.video-images img:hover {
+    cursor: pointer;
+}
+
+/************************** SHAPE DIVIDER ********************************/
+
+.custom-shape-divider-bottom-1665960448 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1665960448 svg {
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 34px;
+}
+
+.custom-shape-divider-bottom-1665960448 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* testimonial split */
+.custom-shape-divider-bottom-1666106476 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1666106476 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 74px;
+}
+
+.custom-shape-divider-bottom-1666106476 .shape-fill {
+    fill: #FFFFFF;
+}
