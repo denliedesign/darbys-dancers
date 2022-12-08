@@ -136,7 +136,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/Storytimeintro.mov" type="video/mov" controls=""
+                <video src="/images/Storytimeintro.MOV" type="video/mov" controls=""
                        class="rounded shadow img-fluid"></video>
             </div>
         </div>
@@ -151,7 +151,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/Giraffescantdance2.mov" type="video/mov" controls=""
+                <video src="/images/Giraffescantdance2.MOV" type="video/mov" controls=""
                        class="img-fluid rounded shadow"></video>
             </div>
         </div>
@@ -166,7 +166,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/kindnessstartswithyou.mov" type="video/mov" controls=""
+                <video src="/images/kindnessstartswithyou.MOV" type="video/mov" controls=""
                        class="img-fluid rounded shadow"></video>
             </div>
         </div>
@@ -181,7 +181,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/lemonadehurricane.mov" type="video/mov" controls=""
+                <video src="/images/lemonadehurricane.MOV" type="video/mov" controls=""
                        class="img-fluid rounded shadow"></video>
             </div>
         </div>
@@ -196,7 +196,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/dumpylarue.mov" type="video/mov" controls=""
+                <video src="/images/dumpylarue.MOV" type="video/mov" controls=""
                        class="img-fluid rounded shadow"></video>
             </div>
         </div>
@@ -211,7 +211,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/Youcandoit.mov" type="video/mov" controls=""
+                <video src="/images/Youcandoit.MOV" type="video/mov" controls=""
                        class="img-fluid rounded shadow"></video>
             </div>
         </div>
@@ -226,7 +226,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/BraveSophiapart1.mov" type="video/mov" controls=""
+                <video src="/images/BraveSophiapart1.MOV" type="video/mov" controls=""
                        class="img-fluid rounded shadow"></video>
             </div>
         </div>
@@ -241,7 +241,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center">
-                <video src="/images/BraveSophiapart2.mov" type="video/mov" controls=""
+                <video src="/images/BraveSophiapart2.MOV" type="video/mov" controls=""
                        class="rounded shadow img-fluid"></video>
             </div>
         </div>
