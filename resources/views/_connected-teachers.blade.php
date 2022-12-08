@@ -348,7 +348,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center justify-content-center">
-                <video src="/images/the-darby-2.MOV" type="video/mov" controls=""
+                <video src="/images/the-darby-2.mov" type="video/mov" controls=""
                        class="img-fluid rounded shadow" style="height: 70vh;"></video>
             </div>
         </div>
@@ -363,7 +363,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center justify-content-center">
-                <video src="/images/the-darby-3.MOV" type="video/mov" controls=""
+                <video src="/images/the-darby-3.mov" type="video/mov" controls=""
                        class="img-fluid rounded shadow" style="height: 70vh;"></video>
             </div>
         </div>
@@ -378,7 +378,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body p-2 d-flex align-items-center justify-content-center">
-                <video src="/images/the-darby-4.MOV" type="video/mov" controls=""
+                <video src="/images/the-darby-4.mov" type="video/mov" controls=""
                        class="img-fluid rounded shadow" style="height: 70vh;"></video>
             </div>
         </div>
