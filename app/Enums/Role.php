@@ -2,8 +2,14 @@
 
 namespace App\Enums;
 
-enum Role: string
+//enum Role: string
+//{
+//    case Admin = 'Admin';
+//    case Author = 'Author';
+//}
+
+class Role
 {
-    case Admin = 'Admin';
-    case Author = 'Author';
+    const Admin = 'Admin';
+    const Author = 'Author';
 }
