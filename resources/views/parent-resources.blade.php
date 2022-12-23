@@ -24,7 +24,7 @@
                 </div>
             @endif
 
-            @if($code == 'inclusion' || $code == 'equity')
+            @if($code == 'inclusion' || $code == 'brave')
                 @include('_connected-parents')
             @else
                 <div style="height: 100%;" class="d-flex align-items-center justify-content-center text-center">

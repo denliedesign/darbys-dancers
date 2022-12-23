@@ -64,39 +64,43 @@
             {{--            <h3 class="lead font-fira text-center" style="font-size: 2.75em;">Dance Studio Membership Options</h3>--}}
             <h2 class="text-center">Dance Studio Membership Options</h2>
             <p class="text-center">
-                All Studio Members will receive recognition as part of the national organization which promotes the participation in the performing arts by children and young adults with diverse learning needs. We offer two membership packages listed below.
+                All Studio Members will receive recognition as part of the national organization which promotes the participation in the performing arts by children and young adults with diverse learning needs.
+{{--                We offer two membership packages listed below.--}}
                 <br><br>
-                Please contact us if you would like to talk through your options to pick the best package for your dance studio and community offerings. You’ll get to speak directly with Valerie Jones, Co-founder, to answer any and all of your questions regarding Darby’s Dancers.
+                Please contact us if you would like to talk
+                through membership details.
+{{--                through your options to pick the best package for your dance studio and community offerings. --}}
+                You’ll get to speak directly with Valerie Jones, Co-founder, to answer any and all of your questions regarding Darby’s Dancers.
             </p>
             <div class="row">
-                <div class="col-sm">
-                    <div class="p-4 m-4 shadow rounded" style="border: 6px solid #A5AEB9;">
-                        <div class="text-center"><ion-icon name="home" style="font-size: 3em; background: #A5AEB9; border-radius: 50%; padding: 12px;"></ion-icon></div>
-                        <p class="text-center">
-                            <strong>STUDIO SILVER MEMBERSHIP</strong>
-                            <br>
-                            Everything you need to get your program started off on the right Pointe
-                        </p>
-                        <div class="d-flex justify-content-center">
-                            <ul>
-                                <li>Silver Membership Plan</li>
-                                <li>Member Only Resources</li>
-                                <li>National member as a 501(c)(3)</li>
-                                <li>Story telling with Valerie</li>
-                                <li>Welcome Kit & DD Tools</li>
-                                <li>Access to DD Apparel</li>
-                                <li>Annual Memberships</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-sm">--}}
+{{--                    <div class="p-4 m-4 shadow rounded" style="border: 6px solid #A5AEB9;">--}}
+{{--                        <div class="text-center"><ion-icon name="home" style="font-size: 3em; background: #A5AEB9; border-radius: 50%; padding: 12px;"></ion-icon></div>--}}
+{{--                        <p class="text-center">--}}
+{{--                            <strong>STUDIO SILVER MEMBERSHIP</strong>--}}
+{{--                            <br>--}}
+{{--                            Everything you need to get your program started off on the right Pointe--}}
+{{--                        </p>--}}
+{{--                        <div class="d-flex justify-content-center">--}}
+{{--                            <ul>--}}
+{{--                                <li>Silver Membership Plan</li>--}}
+{{--                                <li>Member Only Resources</li>--}}
+{{--                                <li>National member as a 501(c)(3)</li>--}}
+{{--                                <li>Story telling with Valerie</li>--}}
+{{--                                <li>Welcome Kit & DD Tools</li>--}}
+{{--                                <li>Access to DD Apparel</li>--}}
+{{--                                <li>Annual Memberships</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+                <div class="col-sm"></div>
                 <div class="col-sm">
                     <div class="p-4 m-4 shadow rounded" style="border: 6px solid #FFC300;">
                         <div class="text-center"><ion-icon name="home" style="font-size: 3em; background: #FFC300; border-radius: 50%; padding: 12px;"></ion-icon></div>
                         <p class="text-center">
-                            <strong><span class="realistic-marker-highlight">STUDIO GOLD MEMBERSHIP</span></strong>
-                            <br>
-                            Full access to the offerings in the Silver Membership PLUS additional tools
+                            <strong><span class="realistic-marker-highlight">STUDIO MEMBERSHIP</span></strong>
+{{--                            <br>Full access to the offerings in the Silver Membership PLUS additional tools--}}
                         </p>
                         <div class="d-flex justify-content-center">
                             <ul>
@@ -111,6 +115,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm"></div>
             </div>
         </div>
     </div>
@@ -119,7 +124,8 @@
     <div class="brand-bg-gradient-yo my-5" style="position: relative;">
         <div class="container py-5">
             <h2 class="text-center">Studio Enrollment Form</h2>
-            @include('enroll.create')
+            @include('_register')
+{{--            @include('enroll.create')--}}
         </div>
         <div style="height: 34px;"></div>
         <div class="custom-shape-divider-bottom-1665960448">

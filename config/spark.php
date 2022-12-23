@@ -17,6 +17,7 @@ return [
     */
 
     'path' => 'billing',
+    'dashboard_url' => '/',
 
     /*
     |--------------------------------------------------------------------------
@@ -43,10 +44,10 @@ return [
     |
     */
 
-    // 'brand' =>  [
-    //     'logo' => realpath(__DIR__.'/../public/svg/billing-logo.svg'),
-    //     'color' => 'bg-gray-800',
-    // ],
+     'brand' =>  [
+         'logo' => realpath(__DIR__.'/../public/images/billing-logo.svg'),
+         'color' => '#31609D',
+     ],
 
     /*
     |--------------------------------------------------------------------------

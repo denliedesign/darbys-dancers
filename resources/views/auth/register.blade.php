@@ -18,6 +18,45 @@
                 <x-input-error :messages="$errors->get('name')" class="mt-2" />
             </div>
 
+                <!-- Studio -->
+                <div class="mt-4">
+                    <x-input-label for="studioName" :value="__('Studio Name')" />
+
+                    <x-text-input id="studioName" class="block mt-1 w-full" type="text" name="studioName" :value="old('studioName')" required autofocus />
+
+                    <x-input-error :messages="$errors->get('studioName')" class="mt-2" />
+                </div>
+
+{{--                <div class="form-group mt-3 fw-bold">--}}
+{{--                    <label for="studioName">Studio Name</label>--}}
+{{--                    <input id="studioName" type="text" class="form-control" name="studioName" value="{{ old('studioName') }}">--}}
+{{--                    <div>{{ $errors->first('studioName') }}</div>--}}
+{{--                </div>--}}
+
+                <!-- Membership -->
+{{--                <div class="form-group mt-3 fw-bold">--}}
+{{--                    <label for="membership">Membership</label>--}}
+{{--                    <select id="membership" name="membership" class="form-select">--}}
+{{--                        <option value="Silver">Studio Silver Membership</option>--}}
+{{--                        <option value="Gold">Studio Gold Membership</option>--}}
+{{--                    </select>--}}
+{{--                </div>--}}
+
+                <!-- Phone -->
+                <div class="mt-4">
+                    <x-input-label for="phone" :value="__('Phone')" />
+
+                    <x-text-input id="phone" class="block mt-1 w-full" type="text" name="phone" :value="old('phone')" required autofocus />
+
+                    <x-input-error :messages="$errors->get('phone')" class="mt-2" />
+                </div>
+
+{{--                <div class="form-group mt-3 fw-bold">--}}
+{{--                    <label for="phone">Phone</label>--}}
+{{--                    <input id="phone" type="text" class="form-control" name="phone" value="{{ old('phone') }}">--}}
+{{--                    <div>{{ $errors->first('phone') }}</div>--}}
+{{--                </div>--}}
+
             <!-- Email Address -->
             <div class="mt-4">
                 <x-input-label for="email" :value="__('Email')" />

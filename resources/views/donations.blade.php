@@ -15,35 +15,38 @@
 
     <div class="container my-5">
         <div class="row">
-            <div class="col text-center">
-                <div id="paypal-button-container-P-0GW491567K692914SMIEXC5A"></div>
-                <script src="https://www.paypal.com/sdk/js?client-id=AfeW5TGvbbpyO4ux0ayFxQklEIFYFvx8aUGvaqKfy2Oa_QpPsX45SUU8RWloJeB6Y7DbGsfnjxEos8hn&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-                <script>
-                    paypal.Buttons({
-                        style: {
-                            shape: 'rect',
-                            color: 'blue',
-                            layout: 'vertical',
-                            label: 'subscribe'
-                        },
-                        createSubscription: function(data, actions) {
-                            return actions.subscription.create({
-                                /* Creates the subscription */
-                                plan_id: 'P-0GW491567K692914SMIEXC5A'
-                            });
-                        },
-                        onApprove: function(data, actions) {
-                            alert(data.subscriptionID); // You can add optional success message for the subscriber here
-                        }
-                    }).render('#paypal-button-container-P-0GW491567K692914SMIEXC5A'); // Renders the PayPal button
-                </script>
+            <div class="col text-center d-flex align-items-center justify-content-center">
+                <div class="btn btn-lg brand-bg-logo-blue shadow m-3 brand-btn" style="width: 175px;">
+                    <a href="https://donate.stripe.com/test_bIYfZh0V9bEV4es6oo" target="_blank" class="text-white text-decoration-none">Donate Now</a>
+                </div>
+{{--                <div id="paypal-button-container-P-0GW491567K692914SMIEXC5A"></div>--}}
+{{--                <script src="https://www.paypal.com/sdk/js?client-id=AfeW5TGvbbpyO4ux0ayFxQklEIFYFvx8aUGvaqKfy2Oa_QpPsX45SUU8RWloJeB6Y7DbGsfnjxEos8hn&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>--}}
+{{--                <script>--}}
+{{--                    paypal.Buttons({--}}
+{{--                        style: {--}}
+{{--                            shape: 'rect',--}}
+{{--                            color: 'blue',--}}
+{{--                            layout: 'vertical',--}}
+{{--                            label: 'subscribe'--}}
+{{--                        },--}}
+{{--                        createSubscription: function(data, actions) {--}}
+{{--                            return actions.subscription.create({--}}
+{{--                                /* Creates the subscription */--}}
+{{--                                plan_id: 'P-0GW491567K692914SMIEXC5A'--}}
+{{--                            });--}}
+{{--                        },--}}
+{{--                        onApprove: function(data, actions) {--}}
+{{--                            alert(data.subscriptionID); // You can add optional success message for the subscriber here--}}
+{{--                        }--}}
+{{--                    }).render('#paypal-button-container-P-0GW491567K692914SMIEXC5A'); // Renders the PayPal button--}}
+{{--                </script>--}}
 
             </div>
-            <div class="col d-flex align-items-center">
+            <div class="col d-flex align-items-center justify-content-center">
                 <div>
                     <h3 class="lead font-fira" style="font-size: 2.75em;">Thank you for your generosity!</h3>
                     <p>
-                        Darby’s Dancers is a 501(c)(3) non-profit organization that relies on volunteer time and donations to keep its mission alive. No amount is too small. Click the link above to be taken to PayPal where your transaction is guaranteed safe and free of service charges to you or us.
+                        Darby’s Dancers is a 501(c)(3) non-profit organization that relies on volunteer time and donations to keep its mission alive. No amount is too small. Click the "Donate Now" button to be taken to Stripe where your transaction is guaranteed safe and free of service charges to you or us.
                     </p>
                 </div>
             </div>

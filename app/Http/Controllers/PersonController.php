@@ -6,6 +6,7 @@ use App\Models\Person;
 use App\Http\Requests\PersonRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\View;
 
 class PersonController extends Controller
@@ -29,6 +30,7 @@ class PersonController extends Controller
     public function index()
     {
 //        $people = Person::visibleFor(request()->user())->latest()->withQueryString();
+        $this->user = Auth::user()->name;
         return view('people.index');
     }
 
