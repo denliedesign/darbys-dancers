@@ -17,7 +17,7 @@ return [
     */
 
     'path' => 'billing',
-    'dashboard_url' => '/dashboard',
+    'dashboard_url' => '/people',
 
     /*
     |--------------------------------------------------------------------------
