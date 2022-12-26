@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item mx-4">
                 <small>
-                    <a href="/dashboard" class="text-decoration-none brand-txt-logo-blue">Dashboard</a>
+                    <a href="/people" class="text-decoration-none brand-txt-logo-blue">Dashboard</a>
                 </small>
             </li>
         @endguest
