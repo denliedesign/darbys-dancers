@@ -22,7 +22,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('/people');
+    return view('dashboard');
 //})->middleware(['auth', 'verified'])->name('dashboard');
 })->middleware(['auth', 'verified', 'subscribed'])->name('dashboard');
 
