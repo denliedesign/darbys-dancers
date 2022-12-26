@@ -34,7 +34,8 @@
             </div>
             <div class="col-sm">
                 <div class="d-flex justify-content-center">
-                    <iframe class="shadow rounded" src="https://www.google.com/maps/d/embed?mid=1xkrV8Tj30y9tueeFx7WiarVCFXK8_AA&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+{{--                    <iframe class="shadow rounded" src="https://www.google.com/maps/d/embed?mid=1xkrV8Tj30y9tueeFx7WiarVCFXK8_AA&hl=en&ehbc=2E312F" width="640" height="480"></iframe>--}}
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1xkrV8Tj30y9tueeFx7WiarVCFXK8_AA&ehbc=2E312F" width="640" height="480"></iframe>
                 </div>
             </div>
         </div>
