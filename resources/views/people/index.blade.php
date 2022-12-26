@@ -30,7 +30,7 @@
                             @include('_people-author')
                         @endcannot
                     @break
-                    @case(Auth::user()->email === 'val@test.com')
+                    @case(Auth::user()->email === 'valerie@darbysdancers.org')
                         @include('_people-admin')
                     @break
                 @endswitch
