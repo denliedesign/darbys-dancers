@@ -30,6 +30,11 @@
                     @csrf
                 </form>
             </li>
+            <li class="nav-item mx-4">
+                <small>
+                    <a href="{{ route('dashboard') }}" class="text-decoration-none brand-txt-logo-blue">Dashboard</a>
+                </small>
+            </li>
         @endguest
 
     </ul>
