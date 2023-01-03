@@ -27,7 +27,7 @@
                             <span class="font-archivo-plain">Darbys’ Dancers relies on the membership and volunteers of dance studios, parents and the community.</span>
                             The National DD Organization is committed to providing the best programs possible to help our dancers grow and excel in their physical, social, and emotional development.  We require no minimum of children with special needs to get started and enroll your studio as a member.
                             <br><br>
-                            Darby’s Dancers offers two membership levels. Both memberships are designed to help and provide as many of the tools that are needed to grow and nurture any Studio Member’s Darby’s Program.                            <br><br>
+                            Your memberships are designed to help and provide as many of the tools that are needed to grow and nurture any Studio Member’s Darby’s Program.                            <br><br>
                         </p>
                     </div>
                 </div>
