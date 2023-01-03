@@ -266,17 +266,18 @@
         <div class="container py-5">
             <h2 class="text-center">Our Partners</h2>
             <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-4">
-                <img src="/images/partner-1-long-stems.jpg" alt="" class="img-fluid">
-                <img src="/images/partner-2-akada.jpg" alt="" class="img-fluid">
-                <img src="/images/partner-3-dance-life.jpg" alt="" class="img-fluid">
-                <img src="/images/partner-4-mtjgd.jpg" alt="" class="img-fluid">
-                <img src="/images/partner-5-rhythm-works.jpg" alt="" class="img-fluid">
-                <img src="/images/partner-6-upaf.jpg" alt="" class="img-fluid">
-                <img src="/images/logo-double-good.png" alt="" class="img-fluid">
-                <img src="/images/logo-special-olympics.png" alt="" class="img-fluid">
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/partner-1-long-stems.jpg" alt="" class="img-fluid"></div></div>
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/partner-2-akada.jpg" alt="" class="img-fluid"></div></div>
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/partner-3-dance-life.jpg" alt="" class="img-fluid"></div></div>
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/partner-4-mtjgd.jpg" alt="" class="img-fluid"></div></div>
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/partner-5-rhythm-works.jpg" alt="" class="img-fluid"></div></div>
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/partner-6-upaf.jpg" alt="" class="img-fluid"></div></div>
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/logo-double-good.png" alt="" class="img-fluid"></div></div>
+                <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/logo-special-olympics.png" alt="" class="img-fluid"></div></div>
             </div>
         </div>
     </div>
+
 
 
 @endsection
