@@ -17,7 +17,11 @@
 
     <div>
 {{--        @can('update', \App\Person::class)--}}
-            <p class="text-center"><a href="/people/create">Add New Person</a></p>
+            <p class="text-center">
+                <a href="/people/create">Add New Person</a>
+                &nbsp; / &nbsp;
+                <a href="https://buy.stripe.com/fZe28G68s5Aj7UA7ss" target="_blank">Pay Dancer Fee</a>
+            </p>
 {{--        @endcan--}}
     </div>
 
