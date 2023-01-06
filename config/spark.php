@@ -140,7 +140,7 @@ return [
                 [
                     'name' => 'Darby\'s Dancers Yearly Membership',
                     'short_description' => 'Subscription to the Darby\'s Dancers Program',
-                    'yearly_id' => 'price_1MGk2NKrXc5EOpOwIrZTHshf',
+                    'yearly_id' => 'price_1MMQFpKrXc5EOpOwkvE8qMgT',
                     'features' => [],
                 ],
             ],
