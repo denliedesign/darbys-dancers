@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col text-center d-flex align-items-center justify-content-center">
                 <div class="btn btn-lg brand-bg-logo-blue shadow m-3 brand-btn" style="width: 175px;">
-                    <a href="https://donate.stripe.com/test_bIYfZh0V9bEV4es6oo" target="_blank" class="text-white text-decoration-none">Donate Now</a>
+                    <a href="https://buy.stripe.com/5kA8x41Scd2L1wccMN" target="_blank" class="text-white text-decoration-none">Donate Now</a>
                 </div>
 {{--                <div id="paypal-button-container-P-0GW491567K692914SMIEXC5A"></div>--}}
 {{--                <script src="https://www.paypal.com/sdk/js?client-id=AfeW5TGvbbpyO4ux0ayFxQklEIFYFvx8aUGvaqKfy2Oa_QpPsX45SUU8RWloJeB6Y7DbGsfnjxEos8hn&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>--}}
