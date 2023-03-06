@@ -27,7 +27,7 @@
 
 {{--    @can('view', $people)--}}
         <div class="container mb-5" id="switch-case">
-            @foreach($users as $user)
+            @foreach($users as $user->sortBy('studioName'))
                 @switch($user->name)
                     @case(Auth::user()->name)
                         @cannot('view', $people)

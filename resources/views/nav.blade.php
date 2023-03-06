@@ -83,6 +83,9 @@
                 </li>
 
                 <li class="nav-item mx-2">
+                    <a class="nav-link" href="https://www.google.com/maps/d/u/0/viewer?mid=1xkrV8Tj30y9tueeFx7WiarVCFXK8_AA&ll=42.09755655531475%2C-59.99051034999999&z=3" target="_blank">Locations</a>
+                </li>
+                <li class="nav-item mx-2">
                     <a class="nav-link" href="/articles">News</a>
                 </li>
                 <li class="nav-item mx-2">
