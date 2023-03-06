@@ -22,7 +22,7 @@ class PersonController extends Controller
     {
         $this->authorizeResource(Person::class);
         $this->people = Person::all()->sortBy('role');
-        $this->users = User::all();
+        $this->users = User::all()->sortBy('studioName');
         View::share('people', $this->people);
         View::share('users', $this->users);
     }
