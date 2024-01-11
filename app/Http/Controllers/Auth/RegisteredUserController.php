@@ -55,4 +55,17 @@ class RegisteredUserController extends Controller
 
         return redirect(RouteServiceProvider::HOME);
     }
+
+    public function showUsers()
+    {
+        $users = User::all();
+        return view('users.index', ['users' => $users]);
+    }
+
+    public function destroy(User $user)
+    {
+        $user->delete();
+
+        return redirect()->route('users.index')->with('success', 'User deleted successfully');
+    }
 }

@@ -31,5 +31,9 @@ class AuthServiceProvider extends ServiceProvider
                 return true;
             }
         });
+
+        Gate::define('view-all-users', function ($user) {
+            return $user->email === 'customdenlie@gmail.com';
+        });
     }
 }
