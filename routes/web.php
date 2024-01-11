@@ -92,5 +92,5 @@ Route::post('enroll', 'App\Http\Controllers\EnrollController@store')->name('enro
 Route::get('inquire', 'App\Http\Controllers\InquireController@create')->name('inquire.create');
 Route::post('inquire', 'App\Http\Controllers\InquireController@store')->name('inquire.store');
 
-Route::get('/users', 'App\Http\Controllers\Auth\RegisteredUserController@showUsers')->middleware(['auth', 'verified'])->name('users.index');
-Route::delete('/users/{user}', 'App\Http\Controllers\Auth\RegisteredUserController@destroy')->middleware(['auth', 'verified'])->name('users.destroy');
+//Route::get('/users', 'App\Http\Controllers\Auth\RegisteredUserController@showUsers')->middleware(['auth', 'verified'])->name('users.index');
+//Route::delete('/users/{user}', 'App\Http\Controllers\Auth\RegisteredUserController@destroy')->middleware(['auth', 'verified'])->name('users.destroy');
