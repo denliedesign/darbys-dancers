@@ -134,15 +134,34 @@ return [
         'user' => [
             'model' => User::class,
 
-            'default_interval' => 'monthly',
+            'default_interval' => 'yearly',
 
             'plans' => [
+//                [
+//                    'name' => 'Darby\'s Dancers Membership Test',
+//                    'short_description' => 'Testing Studio membership to Darby\'s Dancers program.',
+//                    'yearly_id' => 'price_1MGk2NKrXc5EOpOwIrZTHshf',
+//                    'features' => [],
+//                ],
+//                [
+//                    'name' => 'Darby\'s Free Dancers Membership Test',
+//                    'short_description' => 'Testing Free Studio membership to Darby\'s Dancers program.',
+//                    'yearly_id' => 'price_1OcWa3KrXc5EOpOwbac3JuGf',
+//                    'features' => [],
+//                ],
+//                [
+//                    'name' => 'Full Darby\'s Dancers Membership',
+//                    'short_description' => 'Full Studio membership to Darby\'s Dancers program.',
+//                    'yearly_id' => 'price_1MMQFpKrXc5EOpOwkvE8qMgT',
+//                    'features' => [],
+//                ],
                 [
-                    'name' => 'Darby\'s Dancers Yearly Membership',
-                    'short_description' => 'Subscription to the Darby\'s Dancers Program',
-                    'yearly_id' => 'price_1MMQFpKrXc5EOpOwkvE8qMgT',
+                    'name' => 'Darby\'s Dancers Membership',
+                    'short_description' => 'By starting your subscription today at $0, you agree to be automatically charged $495 annually, beginning on September 1st each year, for a studio membership to Darby\'s Dancers program.',
+                    'yearly_id' => 'price_1OZhExKrXc5EOpOw2TbTOBx4',
                     'features' => [],
                 ],
+
             ],
 
         ],
