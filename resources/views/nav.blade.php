@@ -61,6 +61,9 @@
                 <li class="nav-item mx-2">
                     <a class="nav-link" href="/about">About</a>
                 </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="/testimonials">Testimonials</a>
+                </li>
                 {{--                <li class="nav-item mx-2">--}}
                 {{--                    <a class="nav-link" href="/">Dancer Join</a>--}}
                 {{--                </li>--}}

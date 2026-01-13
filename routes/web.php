@@ -21,6 +21,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/locations', function () {
+    return view('/locations');
+});
+
+Route::get('/testimonials', function () {
+    return view('/testimonials');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 //})->middleware(['auth', 'verified'])->name('dashboard');
